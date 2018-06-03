@@ -1,0 +1,17 @@
+/*CROSS BROWSER PRESET*/
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+/*	If the user doesn't change fontsize root fontsize it will be 16px as usual(in this case 10px) DEFINE 1 REM*/
+	font-size: 62.5%;
+}
+
+body {
+	box-sizing: border-box;
+}
